@@ -12,6 +12,10 @@ namespace Contact_Tracing_viewer
 {
     public partial class Form2 : Form
     {
+        public static string setvaluetext13;
+        public static string setvaluetext12;
+        public static string setvaluetext11;
+        public static string setvaluetext10;
         public Form2()
         {
             InitializeComponent();
@@ -30,6 +34,9 @@ namespace Contact_Tracing_viewer
             textBox5.Text = Form1.setvaluetext9;
 
            
+            
+            
+
         }
 
         private void textBox13_TextChanged(object sender, EventArgs e)
@@ -82,8 +89,9 @@ namespace Contact_Tracing_viewer
             
         }
 
-        private void textBox6_TextChanged(object sender, EventArgs e)
+        public void textBox6_TextChanged(object sender, EventArgs e)
         {
+            
 
         }
 
